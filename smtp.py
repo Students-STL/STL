@@ -12,7 +12,7 @@ login = '***'
 password = '***'
 url = 'smtp.mail.ru'
 server = smtplib.SMTP_SSL(url, 465)  # подключение к SSL + порт
-server.login(login, password)  # авторизация в почтовом ящике
+server.login(login, password)  # авторизация в почтовом ящике 
 
 def send_mail():
     toaddr=input ('Кому: ') # Почта получтеля
