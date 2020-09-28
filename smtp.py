@@ -8,8 +8,8 @@ from email.mime.multipart import MIMEMultipart
 # ([\.-]?\w+) Условие на наличие только 1-ой точки подряд
 # (\.\w{2,3}) Поиск точки и проверка на наличие 2-3 любых символов + завершение осмотра
 regex = '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'
-login = 'noiker01@mail.ru'
-password = 'Oleg249966'
+login = '***'
+password = '***'
 url = 'smtp.mail.ru'
 server = smtplib.SMTP_SSL(url, 465)  # подключение к SSL + порт
 server.login(login, password)  # авторизация в почтовом ящике
