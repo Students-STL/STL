@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 # An employee record
 settings:
   db_name: liteSQLSample
+=======
+#An employee record
+settings:
+  db_name: LiteSQLSample
+>>>>>>> 18da3572eb7bdae3a13094821bf7b453feb68f23
