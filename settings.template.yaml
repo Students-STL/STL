@@ -1,3 +1,5 @@
 # An employee record
 settings:
   db_name: liteSQLSample
+  login: " "
+  password: " "
