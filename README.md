@@ -13,7 +13,7 @@ Show the result of the code. If possible, attach a GIF file.</p>
 If the project is a static site. Write something like "Place the parent directory on the web server". Specify which basic tools the reader will need to know to install. Just list all the commands that you will need to run during installation and initial configuration.</p>
 
 <h2 align="left>Created with</h2>
-- First
+<ul>First
   <li>Second</li>
   <li>Third<li>
   <li>Fourth<li>
