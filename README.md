@@ -18,5 +18,11 @@ If the project is a static site. Write something like "Place the parent director
   <li>Three</li>
   <li>Four</li>
 </ul>
-<h2>Thanks</h2>
+<h2 align="left">Authors</h2>
+<ul>
+  <li>Nikita Kirillochkin</li>
+  <li>Ilya Papkov</li>
+  <li>Alexander Vyugin</li>
+</ul>
+<h2 align="left">Thanks</h2>
 <p>Thank you to Smart Technolab for training and motivation</p>
