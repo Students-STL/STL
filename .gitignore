@@ -1,0 +1,14 @@
+**/*.pyc
+**/__pycache__/
+.idea/
+**/*.iml
+
+*.patch
+#Шаблон .gitignore с сайта github
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg

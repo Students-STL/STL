@@ -1,4 +1,3 @@
-#!/home/trigger/.virtualenvs/STL/bin python3.7
 from flask import Flask
 
 app = Flask(__name__)
