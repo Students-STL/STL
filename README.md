@@ -11,5 +11,4 @@ Show the result of the code. If possible, attach a GIF file.</p>
 <p>Installation description section. It must be present in every project, even if the entire installation process consists of entering the npm install catcrawler command in the terminal.
 
 If the project is a static site. Write something like "Place the parent directory on the web server". Specify which basic tools the reader will need to know to install. Just list all the commands that you will need to run during installation and initial configuration.</p>
-
-<h2 align="left>Created with</h2>
+<h2 align="left">Created with</h2>
