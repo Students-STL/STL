@@ -1,3 +1,2 @@
 <h1 align="center">Название проекта</h1>
-<h2 align="center">
-
+<p align="left">Объяснение проекта: </p>
