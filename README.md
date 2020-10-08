@@ -13,5 +13,10 @@ Show the result of the code. If possible, attach a GIF file.</p>
 If the project is a static site. Write something like "Place the parent directory on the web server". Specify which basic tools the reader will need to know to install. Just list all the commands that you will need to run during installation and initial configuration.</p>
 <h2 align="left">Created with</h2>
 <ul>
-  <li>First</li>
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+  <li>Four</li>
 </ul>
+<h2>Thanks</h2>
+<p>Thank you to Smart Technolab for training and motivation</p>
