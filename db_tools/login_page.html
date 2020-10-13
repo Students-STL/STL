@@ -1,3 +1,105 @@
-<html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    input[type="email"],[type="password"]{
+       width: 220px;
+       font-size: 20px;
+       margin-top:15px;
+      }
+
+    .btn-info{
+      width: 220px;
+      margin-top:15px;
+      padding: 10px 12px;
+      font-size: 20px;
+    }
+
+    .btn-success{
+      margin-top:15px;
+      float:left;
+      font-size: 20px;
+    }
+
+    .btn-primary{
+      margin-top:15px;
+      float: right;
+      font-size: 20px;
+    }
+
+    .container{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border:1px solid black;
+      width: 350px;
+      height:290px;
+      margin-top: 150px;
+      outline:none;
+      padding: 20px;
+      border-radius: 15%;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Авторизация</h2>
+  <div id="myCarousel" class="carousel slide">
+    <form method="post">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        <button type="button" id="myBtn1" class="btn btn-info btn-lg" id="myBtn">Go next</button>
+      </div>
+
+      <div class="item">
+        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+        <button type="button" id="myBtn2" class="btn btn-success btn-lg" id="myBtn">Go back</button>
+        <button type="submit" id="myBtn3" class="btn btn-primary btn-lg" id="myBtn">Submit</button>
+      </div>
+
+    </div>
+  </form>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  // Activate Carousel
+  $("#myCarousel").carousel("pause");
+
+  // Go to the previous item
+  $("#myBtn2").click(function(){
+    $("#myCarousel").carousel("prev");
+  });
+
+  // Go to the next item
+  $("#myBtn1").click(function(){
+    $("#myCarousel").carousel("next");
+  });
+
+  // Enable Carousel Controls
+  $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+  });
+  $(".right").click(function(){
+    $("#myCarousel").carousel("next");
+  });
+});
+
+</script>
+
+</body>
 </html>
